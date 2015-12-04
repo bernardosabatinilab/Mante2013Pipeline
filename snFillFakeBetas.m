@@ -9,6 +9,7 @@ function [ output_args ] = snFillFakeBetas(nCells, nPoints)
 
     nBetas=5; 
     
+    disp('test')
     global snvFakeBetas    
     snvFakeBetas=zeros(nCells, nBetas, nPoints);
 
